@@ -29,7 +29,7 @@
 	preg_match('/src="([^"]*)"/', $description, $matches);
 	$src = $matches[1];
 	//echo "<h1>".$title."</h1><h2>".$link."</h2><p>".$description."</p><img src='$src' />";
-	echo "<img src='$src' />";
+	echo "<img src='$src' class='switch' />";
 ?>
 <style>
 	img {
